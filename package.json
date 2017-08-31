@@ -1,0 +1,23 @@
+{
+  "name": "start-gulp",
+  "version": "0.0.1",
+  "description": "A project to showcase workflows",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KIdvan777/start-gulp.git"
+  },
+  "author": "kidvan777",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-clean-css": "^3.7.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^3.3.0",
+    "gulp-minify-html": "^1.0.6",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0",
+    "imagemin-pngcrush": "^5.1.0",
+    "jquery": "^3.2.1"
+  }
+}

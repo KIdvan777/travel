@@ -106,123 +106,156 @@ body {
     height: 2px;
     background-color: #d6d6d6;
     margin-bottom: 16px; }
-  .site-container .wrapper .filter-main {
-    float: left;
-    display: inline-block;
-    margin-left: 16px;
-    width: 264px;
-    border: 1px solid #e5e2c4;
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
-    background-color: #ebebe8; }
-    .site-container .wrapper .filter-main span {
-      display: inline-block;
-      margin-left: 16px;
-      margin-top: 10px;
-      font-size: 18px;
-      font-family: "Myriad Pro";
-      color: #0e4d7c;
-      font-weight: bold;
-      text-align: left; }
-    .site-container .wrapper .filter-main .holy-search {
-      margin-top: 4px;
-      margin-left: 6px;
-      margin-right: 6px;
-      margin-bottom: 8px;
-      padding-bottom: 10px;
-      background-color: #fff; }
-      .site-container .wrapper .filter-main .holy-search #form span {
+
+footer {
+  width: 978px;
+  margin-left: auto;
+  margin-right: auto; }
+  footer .foot-menu ul {
+    margin: 0;
+    height: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px; }
+    footer .foot-menu ul li {
+      float: left;
+      list-style: none;
+      margin-left: 20px; }
+      footer .foot-menu ul li a {
+        text-decoration: none;
+        font-size: 12px;
         font-family: "Verdana";
         font-weight: bold;
-        font-size: 12px;
-        margin-top: 22px;
-        margin-left: 8px; }
-      .site-container .wrapper .filter-main .holy-search #form .where {
-        margin-top: 10px; }
-      .site-container .wrapper .filter-main .holy-search #form #dest {
-        width: 236px;
+        color: #747a7e;
+        line-height: 1.167;
+        text-align: left; }
+  footer .foot-menu .copyright {
+    float: right;
+    margin-right: 20px; }
+    footer .foot-menu .copyright span {
+      font-size: 12px;
+      font-family: "Verdana";
+      color: #747a7e;
+      line-height: 1.167;
+      text-align: left; }
+
+.wrapper .filter-main {
+  float: left;
+  display: inline-block;
+  margin-left: 16px;
+  width: 264px;
+  border: 1px solid #e5e2c4;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  background-color: #ebebe8; }
+  .wrapper .filter-main span {
+    display: inline-block;
+    margin-left: 16px;
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: "Myriad Pro";
+    color: #0e4d7c;
+    font-weight: bold;
+    text-align: left; }
+  .wrapper .filter-main .holy-search {
+    margin-top: 4px;
+    margin-left: 6px;
+    margin-right: 6px;
+    margin-bottom: 8px;
+    padding-bottom: 10px;
+    background-color: #fff; }
+    .wrapper .filter-main .holy-search #form span {
+      font-family: "Verdana";
+      font-weight: bold;
+      font-size: 12px;
+      margin-top: 22px;
+      margin-left: 8px; }
+    .wrapper .filter-main .holy-search #form .where {
+      margin-top: 10px; }
+    .wrapper .filter-main .holy-search #form #dest {
+      width: 236px;
+      height: 26px;
+      margin-left: 8px;
+      margin-right: 8px;
+      color: #6f7274;
+      border: 1px solid #d2caca; }
+    .wrapper .filter-main .holy-search #form .when {
+      margin-left: 8px; }
+      .wrapper .filter-main .holy-search #form .when #num {
+        width: 52px;
         height: 26px;
-        margin-left: 8px;
-        margin-right: 8px;
         color: #6f7274;
         border: 1px solid #d2caca; }
-      .site-container .wrapper .filter-main .holy-search #form .when {
+      .wrapper .filter-main .holy-search #form .when #mounth {
+        width: 95px;
+        height: 26px;
+        color: #6f7274;
+        border: 1px solid #d2caca;
         margin-left: 8px; }
-        .site-container .wrapper .filter-main .holy-search #form .when #num {
-          width: 52px;
-          height: 26px;
-          color: #6f7274;
-          border: 1px solid #d2caca; }
-        .site-container .wrapper .filter-main .holy-search #form .when #mounth {
-          width: 95px;
-          height: 26px;
-          color: #6f7274;
-          border: 1px solid #d2caca;
-          margin-left: 8px; }
-        .site-container .wrapper .filter-main .holy-search #form .when #year {
-          width: 66px;
-          height: 26px;
-          color: #6f7274;
-          border: 1px solid #d2caca;
-          margin-left: 8px; }
-      .site-container .wrapper .filter-main .holy-search #form .duration {
+      .wrapper .filter-main .holy-search #form .when #year {
+        width: 66px;
+        height: 26px;
+        color: #6f7274;
+        border: 1px solid #d2caca;
         margin-left: 8px; }
-        .site-container .wrapper .filter-main .holy-search #form .duration #duration {
-          width: 236px;
-          height: 26px;
-          color: #6f7274;
-          border: 1px solid #d2caca; }
-      .site-container .wrapper .filter-main .holy-search #form .board {
-        margin-left: 8px; }
-        .site-container .wrapper .filter-main .holy-search #form .board span {
-          margin-left: 0; }
-        .site-container .wrapper .filter-main .holy-search #form .board .wr-board .wr-star {
-          display: inline; }
-        .site-container .wrapper .filter-main .holy-search #form .board #board {
-          width: 110px;
-          height: 26px;
-          color: #6f7274;
-          border: 1px solid #d2caca; }
-        .site-container .wrapper .filter-main .holy-search #form .board #star {
-          width: 110px;
-          height: 26px;
-          color: #6f7274;
-          margin-left: 12px;
-          border: 1px solid #d2caca; }
-      .site-container .wrapper .filter-main .holy-search button {
-        width: 162px;
-        height: 36px;
-        display: block;
-        margin-top: 12px;
-        margin-left: auto;
-        margin-right: auto;
-        color: #fff;
-        font-family: "Myriad Pro";
-        font-size: 18px;
-        cursor: pointer;
-        -webkit-border-radius: 5px;
-        border-radius: 5px;
-        border-style: solid;
-        border-width: 1px;
-        border-color: #f47f11;
-        border-radius: 5px;
-        background-image: -webkit-gradient(linear, left top, right top, from(#f47c0e), to(#faa848));
-        background-image: -webkit-linear-gradient(left, #f47c0e 0%, #faa848 100%);
-        background-image: -o-linear-gradient(left, #f47c0e 0%, #faa848 100%);
-        background-image: linear-gradient(90deg, #f47c0e 0%, #faa848 100%);
-        -webkit-box-shadow: 1px 1.732px 2px 0px rgba(2, 0, 0, 0.21);
-        box-shadow: 1px 1.732px 2px 0px rgba(2, 0, 0, 0.21); }
-  .site-container .banner {
-    float: right;
-    width: 662px;
-    height: 414px;
-    margin-right: 16px;
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
-    background-color: #ebebe8; }
-    .site-container .banner img {
-      width: 100%;
-      height: auto; }
+    .wrapper .filter-main .holy-search #form .duration {
+      margin-left: 8px; }
+      .wrapper .filter-main .holy-search #form .duration #duration {
+        width: 236px;
+        height: 26px;
+        color: #6f7274;
+        border: 1px solid #d2caca; }
+    .wrapper .filter-main .holy-search #form .board {
+      margin-left: 8px; }
+      .wrapper .filter-main .holy-search #form .board span {
+        margin-left: 0; }
+      .wrapper .filter-main .holy-search #form .board .wr-board .wr-star {
+        display: inline; }
+      .wrapper .filter-main .holy-search #form .board #board {
+        width: 110px;
+        height: 26px;
+        color: #6f7274;
+        border: 1px solid #d2caca; }
+      .wrapper .filter-main .holy-search #form .board #star {
+        width: 110px;
+        height: 26px;
+        color: #6f7274;
+        margin-left: 12px;
+        border: 1px solid #d2caca; }
+    .wrapper .filter-main .holy-search button {
+      width: 162px;
+      height: 36px;
+      display: block;
+      margin-top: 12px;
+      margin-left: auto;
+      margin-right: auto;
+      color: #fff;
+      font-family: "Myriad Pro";
+      font-size: 18px;
+      cursor: pointer;
+      -webkit-border-radius: 5px;
+      border-radius: 5px;
+      border-style: solid;
+      border-width: 1px;
+      border-color: #f47f11;
+      border-radius: 5px;
+      background-image: -webkit-gradient(linear, left top, right top, from(#f47c0e), to(#faa848));
+      background-image: -webkit-linear-gradient(left, #f47c0e 0%, #faa848 100%);
+      background-image: -o-linear-gradient(left, #f47c0e 0%, #faa848 100%);
+      background-image: linear-gradient(90deg, #f47c0e 0%, #faa848 100%);
+      -webkit-box-shadow: 1px 1.732px 2px 0px rgba(2, 0, 0, 0.21);
+      box-shadow: 1px 1.732px 2px 0px rgba(2, 0, 0, 0.21); }
+
+.banner {
+  float: right;
+  width: 662px;
+  height: 414px;
+  margin-right: 16px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  background-color: #ebebe8; }
+  .banner img {
+    width: 100%;
+    height: auto; }
 
 .top-wrap {
   clear: both;
@@ -343,34 +376,3 @@ body {
         font-family: "Verdana";
         color: #ff6600;
         font-weight: bold; }
-
-footer {
-  width: 978px;
-  margin-left: auto;
-  margin-right: auto; }
-  footer .foot-menu ul {
-    margin: 0;
-    height: 20px;
-    margin-top: 30px;
-    margin-bottom: 30px; }
-    footer .foot-menu ul li {
-      float: left;
-      list-style: none;
-      margin-left: 20px; }
-      footer .foot-menu ul li a {
-        text-decoration: none;
-        font-size: 12px;
-        font-family: "Verdana";
-        font-weight: bold;
-        color: #747a7e;
-        line-height: 1.167;
-        text-align: left; }
-  footer .foot-menu .copyright {
-    float: right;
-    margin-right: 20px; }
-    footer .foot-menu .copyright span {
-      font-size: 12px;
-      font-family: "Verdana";
-      color: #747a7e;
-      line-height: 1.167;
-      text-align: left; }

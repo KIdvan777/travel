@@ -1,0 +1,98 @@
+@import "header";
+@import "footer";
+
+aside{
+  float: left;
+  margin-left: 14px;
+  padding-right: 4px;
+  .banner-service{
+    display: inline-block;
+    img{
+      display: block;
+    }
+  }
+}
+article{
+  float: right;
+  width: 77%;
+  float: right;
+  .title{
+    h1{
+      margin: 0;
+      margin-left: 12px;
+      font-size: 24px;
+      font-family: "Myriad Pro";
+      color: rgb(14, 77, 124);
+      font-weight: bold;
+      line-height: 1.2;
+      text-align: left;
+      ;
+    }
+    p{
+      margin: 0;
+      margin-top: 24px;
+      margin-right: 16px;
+      margin-left: 12px;
+    }
+  }
+  .serv-item{
+    display: inline-block;
+    height: 382px;
+    width: 235px;
+    background-color: #ebebe8;
+    margin-top: 28px;
+    margin-left: 8px;;
+
+    border-radius: 5px ;
+    h2{
+      display: inline-block;
+      font-size: 12px;
+      font-family: "Verdana";
+      color: rgb(14, 77, 124);
+      font-weight: bold;
+      line-height: 1.5;
+      text-align: left;
+      margin: 0;
+      margin-top: 14px;
+      margin-left: 6px;
+    }
+  }
+  .wrap-serv-item{
+    width: 223px;
+    height: 336px;
+    margin: 8px 6px 6px 6px;
+    background-color: #fff;
+    img{
+      display: inline-block;
+      margin:8px 8px 8px 8px;
+    }p{
+      margin:8px 8px 8px 8px;
+      font-size: 12px;
+      font-family: "Verdana";
+      color: rgb(157, 158, 158);
+      line-height: 1.5;
+      text-align: left;
+    }span{
+      a{
+        position: relative;
+        display: inline-block;
+        margin-left: 8px;
+        top: -5px;
+        text-decoration: none;
+        font-size: 12px;
+        font-family: "Verdana";
+        color: #1987cb;
+        line-height: 1.5;
+        text-align: left;
+      }
+    }
+  }
+  p{
+    margin: 18px;
+    font-size: 12px;
+    font-family: "Verdana";
+    color: rgb(157, 158, 158);
+    line-height: 1.5;
+    text-align: left;
+  }
+}

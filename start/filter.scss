@@ -1,0 +1,52 @@
+aside{
+	.filter{
+	    float: left;
+	    margin-left: 16px;
+	    width: 197px;
+	    border-radius: 5px;
+	    background-color: #ebebe8;
+	    padding-bottom: 10px;
+	    span{
+			display: inline-block;
+			margin-top: 12px;
+			margin-left: 10px;
+			margin-bottom: 4px;
+			font-size: 12px;
+  			font-family: "Verdana";
+  			color: rgb(13, 64, 102);
+  			font-weight: bold;
+	    	}
+	    	.season{
+	    		height: 28px;
+	    		margin-left: 10px;
+	    		margin-right: 10px;
+	    		margin-top: 4px;
+	    		border-style: 1px solid rgb(228, 226, 226);
+	  			border-radius: 2px;
+	  			background-image: -moz-linear-gradient( 90deg, rgb(236,236,234) 0%, rgb(253,253,253) 100%);
+	  			background-image: -webkit-linear-gradient( 90deg, rgb(236,236,234) 0%, rgb(253,253,253) 100%);
+	  			background-image: -ms-linear-gradient( 90deg, rgb(236,236,234) 0%, rgb(253,253,253) 100%);
+	  			box-shadow: 1px 1.732px 2px 0px rgba(0, 0, 0, 0.03);
+				a{
+
+					display: inline-block;
+					height: 28px;
+					width: 177px;
+					font-size: 12px;
+			      	font-family: "Verdana";
+			      	color: #1987cb;
+			      	line-height: 2.4;
+			      	text-align: left;
+					text-decoration: none;
+					i{
+						margin-left: 10px;
+       					margin-right: 10px; 
+					}
+				}a:hover{
+					color: red;
+					margin-left: 12px;
+					transition: 0.4s ease-in;
+				}
+	    	}
+		}
+	}

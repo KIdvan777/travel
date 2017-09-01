@@ -43,7 +43,7 @@ aside{
 					text-decoration: none;
 					i{
 						margin-left: 10px;
-       					margin-right: 10px; 
+       					margin-right: 10px;
 					}
 				}a:hover{
 					color: red;
@@ -88,7 +88,7 @@ aside{
 					font-weight: bold;
 					line-height: 1.5;
 				}
-				b{	
+				b{
 					text-align: right;
 					color: red;
 				}
@@ -117,7 +117,7 @@ aside{
 					font-family: "Verdana";
 					color: rgb(157, 158, 158);
 					text-align: left;
-					
+
 				}button{
 					display: inline-block;
 					float: left;
@@ -136,7 +136,7 @@ aside{
 	  				box-shadow: 1px 1.732px 2px 0px rgba(2, 0, 0, 0.21);
 				}
 			}
-		}		
+		}
 	}.pagination{
 		float: left;
 		margin-left: 230px;
@@ -156,7 +156,7 @@ aside{
 		    background-image: -webkit-linear-gradient(90deg, #ececea 0%, #fdfdfd 100%);
 		    background-image: -ms-linear-gradient(90deg, #ececea 0%, #fdfdfd 100%);
 		    -webkit-box-shadow: 1px 1.732px 2px 0px rgba(0, 0, 0, 0.03);
-		    box-shadow: 1px 1.732px 2px 0px rgba(0, 0, 0, 0.03); 
+		    box-shadow: 1px 1.732px 2px 0px rgba(0, 0, 0, 0.03);
 		}a:hover{
 			background-image: linear-gradient( 90deg, rgb(244,124,14)
 	  		 0%, rgb(250,168,72) 100%);
@@ -165,5 +165,3 @@ aside{
 		    box-shadow: 1px 1.732px 2px 0px rgba(0, 0, 0, 0.03);
 		}
 	}
-	
-

@@ -1,0 +1,220 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(../images/Background.png);
+  background-repeat: no-repeat;
+  -webkit-background-size: 100%  100%;
+  background-size: 100%  100%; }
+
+.site-container {
+  width: 58.7%;
+  overflow: auto;
+  background-color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 25px; }
+  .site-container header {
+    height: 115px;
+    background-color: #f3f3f3;
+    border-bottom: 2px solid #185480; }
+    .site-container header .logo {
+      float: left;
+      margin-left: 16px; }
+    .site-container header .phone {
+      float: right;
+      margin-right: 16px;
+      margin-top: 14px;
+      width: 150px;
+      height: 24px;
+      background-color: #185480;
+      -webkit-border-radius: 5px;
+      border-radius: 5px;
+      -webkit-border-radius: 2px;
+      border-radius: 2px;
+      -webkit-box-shadow: 1px 1.732px 2px 0px rgba(0, 0, 0, 0.22);
+      box-shadow: 1px 1.732px 2px 0px rgba(0, 0, 0, 0.22); }
+      .site-container header .phone img {
+        margin-left: 10px;
+        margin-top: 2px; }
+      .site-container header .phone span {
+        display: inline-block;
+        position: relative;
+        top: -3.5px;
+        font-size: 18px;
+        font-family: "Myriad Pro";
+        font-weight: bold;
+        text-align: right;
+        text-shadow: 0.5px 0.866px 1px rgba(0, 0, 0, 0.75);
+        color: #fff; }
+      .site-container header .phone p {
+        margin: 0;
+        font-size: 12px;
+        font-family: "Myriad Pro";
+        color: #74787b;
+        text-transform: uppercase;
+        line-height: 2.25;
+        margin-left: 22px; }
+    .site-container header .head {
+      margin: 0;
+      padding: 0;
+      padding-top: 77px;
+      height: 38px;
+      margin-left: 14px; }
+      .site-container header .head .top-menu {
+        margin: 0;
+        padding: 0; }
+        .site-container header .head .top-menu li {
+          float: left;
+          height: 38px;
+          margin-left: 2px;
+          -webkit-border-radius: 5px  5px 0 0;
+          border-radius: 5px  5px 0 0;
+          list-style: none;
+          background-color: #1384c6; }
+          .site-container header .head .top-menu li a {
+            display: inline-block;
+            height: 38px;
+            line-height: 2.8;
+            text-decoration: none;
+            color: #fff;
+            font-size: 15px;
+            font-family: "Myriad Pro";
+            text-transform: uppercase;
+            text-align: center;
+            padding-left: 35px;
+            padding-right: 35px; }
+        .site-container header .head .top-menu li:hover {
+          background-color: #fff;
+          height: 40px; }
+          .site-container header .head .top-menu li:hover a:hover {
+            color: #d24602;
+            font-weight: bold; }
+      .site-container header .head .lang {
+        display: inline-block;
+        float: right;
+        margin-top: 4px;
+        margin-right: 24px; }
+        .site-container header .head .lang #lang {
+          width: 122px;
+          border: 1px solid #e4e2e2;
+          padding-top: 5px;
+          padding-bottom: 3px;
+          background-image: url(../images/lang.png);
+          background-repeat: no-repeat;
+          background-position: 70% 50%; }
+  .site-container .line {
+    height: 2px;
+    background-color: #d6d6d6;
+    margin-bottom: 16px; }
+
+footer {
+  width: 978px;
+  margin-left: auto;
+  margin-right: auto; }
+  footer .foot-menu ul {
+    margin: 0;
+    height: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px; }
+    footer .foot-menu ul li {
+      float: left;
+      list-style: none;
+      margin-left: 20px; }
+      footer .foot-menu ul li a {
+        text-decoration: none;
+        font-size: 12px;
+        font-family: "Verdana";
+        font-weight: bold;
+        color: #747a7e;
+        line-height: 1.167;
+        text-align: left; }
+  footer .foot-menu .copyright {
+    float: right;
+    margin-right: 20px; }
+    footer .foot-menu .copyright span {
+      font-size: 12px;
+      font-family: "Verdana";
+      color: #747a7e;
+      line-height: 1.167;
+      text-align: left; }
+
+aside {
+  float: left;
+  margin-left: 14px;
+  padding-right: 4px; }
+  aside .banner-service {
+    display: inline-block; }
+    aside .banner-service img {
+      display: block; }
+
+article {
+  float: right;
+  width: 77%;
+  float: right; }
+  article .title h1 {
+    margin: 0;
+    margin-left: 12px;
+    font-size: 24px;
+    font-family: "Myriad Pro";
+    color: #0e4d7c;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: left; }
+  article .title p {
+    margin: 0;
+    margin-top: 24px;
+    margin-right: 16px;
+    margin-left: 12px; }
+  article .serv-item {
+    display: inline-block;
+    height: 382px;
+    width: 235px;
+    background-color: #ebebe8;
+    margin-top: 28px;
+    margin-left: 8px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; }
+    article .serv-item h2 {
+      display: inline-block;
+      font-size: 12px;
+      font-family: "Verdana";
+      color: #0e4d7c;
+      font-weight: bold;
+      line-height: 1.5;
+      text-align: left;
+      margin: 0;
+      margin-top: 14px;
+      margin-left: 6px; }
+  article .wrap-serv-item {
+    width: 223px;
+    height: 336px;
+    margin: 8px 6px 6px 6px;
+    background-color: #fff; }
+    article .wrap-serv-item img {
+      display: inline-block;
+      margin: 8px 8px 8px 8px; }
+    article .wrap-serv-item p {
+      margin: 8px 8px 8px 8px;
+      font-size: 12px;
+      font-family: "Verdana";
+      color: #9d9e9e;
+      line-height: 1.5;
+      text-align: left; }
+    article .wrap-serv-item span a {
+      position: relative;
+      display: inline-block;
+      margin-left: 8px;
+      top: -5px;
+      text-decoration: none;
+      font-size: 12px;
+      font-family: "Verdana";
+      color: #1987cb;
+      line-height: 1.5;
+      text-align: left; }
+  article p {
+    margin: 18px;
+    font-size: 12px;
+    font-family: "Verdana";
+    color: #9d9e9e;
+    line-height: 1.5;
+    text-align: left; }
